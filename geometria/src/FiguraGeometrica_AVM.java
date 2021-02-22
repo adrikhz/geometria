@@ -19,5 +19,9 @@ public abstract class FiguraGeometrica_AVM {
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
 	}
+	
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
 
 }
