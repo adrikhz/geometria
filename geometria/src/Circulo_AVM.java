@@ -6,6 +6,9 @@ public class Circulo_AVM extends FiguraGeometrica_AVM {
 	
 	public Circulo_AVM(double r, String tipoFigura) {
 		super(tipoFigura);
+		if (r < 0) {
+			r = r*(-1);
+		}
 		radio = r;
 	}
 
